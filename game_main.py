@@ -11,7 +11,6 @@ from agent_dqn import Agent,process_observation
 '''
 ENV_NAME = 'MsPacman-v0' # game name
 EPISODES = 15000
-TEST_EPISODES = 100
 ISTRAIN = True # False to test, true to train
 '''
 def main():
