@@ -14,7 +14,7 @@ EPISODES = 15000
 ISTRAIN = True # False to test, true to train
 '''
 def main():
-    parse = argparse.ArgumentParser(description="进行模型的训练。")
+    parse = argparse.ArgumentParser(description="Start program")
     parse.add_argument("--episode", help="training frequency", type = int, default=15000)
     parse.add_argument("--env_name", help="game name", default='MsPacman-v0')
     parse.add_argument("--model_type", help="'dqn' is DQN, 'ddqn' is DDoubleQN", default='dqn')
