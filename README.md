@@ -21,6 +21,8 @@ For test model:
 	
 	--train=False --load_network=True
 # Result
+The saved_network and summary file is saved with 5 hours of training data
+
 ![game_test](https://github.com/demomagic/dqn_game_tensorflow/blob/master/img/img.gif)
 # Summary
 	tensorboard --logdir=./summary/MsPacman-v0/dqn
