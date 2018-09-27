@@ -35,3 +35,5 @@ For DQN summary:
 For DDQN summary:
 
 ![ddqn_summary](https://github.com/demomagic/dqn_game_tensorflow/blob/master/img/ddqn_summary.png)
+# Reference
+[DQN in Keras + TensorFlow + OpenAI Gym](https://github.com/tokb23/dqn)
